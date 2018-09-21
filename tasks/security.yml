@@ -1,6 +1,6 @@
 ---
 # security updates tasks
-- name: "Ensure kernel headers up to date"
+- name: "Ensure insecure packages are absent"
   package:
     name: "{{ item }}"
     state: absent

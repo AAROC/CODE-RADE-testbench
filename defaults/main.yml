@@ -36,6 +36,7 @@ pips:
   - mock
   - requests
   - flake8
+  - jmespath
 ruby_packages:
   - ruby
   - ruby-devel
